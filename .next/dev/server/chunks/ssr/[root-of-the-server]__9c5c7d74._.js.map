@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/asifd/OneDrive/Desktop/Portfilio/asif%20portfolio/my-app/app/contact/page.tsx"],"sourcesContent":["export default function ContactPage() {\r\n  return (\r\n    <section>\r\n      <h1>Contact Me</h1>\r\n      <p>Email: mohdasifali@gmail.com</p>\r\n      <p>LinkedIn: linkedin.com/in/mohdasifali</p>\r\n      <p>Location: India</p>\r\n    </section>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;0BACH,8OAAC;0BAAE;;;;;;0BACH,8OAAC;0BAAE;;;;;;;;;;;;AAGT"}}]
+}

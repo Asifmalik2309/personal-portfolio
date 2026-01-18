@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/asifd/OneDrive/Desktop/Portfilio/asif%20portfolio/my-app/app/projects/page.tsx"],"sourcesContent":["export default function ProjectsPage() {\r\n  return (\r\n    <section>\r\n      <h1>Projects</h1>\r\n\r\n      <div className=\"project-card\">\r\n        <h3>Dizit Solution Service Website</h3>\r\n        <p>\r\n          A service booking platform built using Next.js and MongoDB\r\n          allowing users to request appliance repair services.\r\n        </p>\r\n      </div>\r\n\r\n      <div className=\"project-card\">\r\n        <h3>Blog Post Application</h3>\r\n        <p>\r\n          Full-stack CRUD blog application with authentication and\r\n          responsive UI.\r\n        </p>\r\n      </div>\r\n    </section>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;0BAEJ,8OAAC;gBAAI,WAAU;;kCACb,8OAAC;kCAAG;;;;;;kCACJ,8OAAC;kCAAE;;;;;;;;;;;;0BAML,8OAAC;gBAAI,WAAU;;kCACb,8OAAC;kCAAG;;;;;;kCACJ,8OAAC;kCAAE;;;;;;;;;;;;;;;;;;AAOX"}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/asifd/OneDrive/Desktop/Portfilio/asif%20portfolio/my-app/app/skills/page.tsx"],"sourcesContent":["export default function SkillsPage() {\r\n  return (\r\n    <section>\r\n      <h1>Technical Skills</h1>\r\n\r\n      <div className=\"skill-list\">\r\n        <span>HTML</span>\r\n        <span>CSS</span>\r\n        <span>JavaScript</span>\r\n        <span>React</span>\r\n        <span>Next.js</span>\r\n        <span>Node.js</span>\r\n        <span>Express.js</span>\r\n        <span>MongoDB</span>\r\n      </div>\r\n    </section>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;0BAEJ,8OAAC;gBAAI,WAAU;;kCACb,8OAAC;kCAAK;;;;;;kCACN,8OAAC;kCAAK;;;;;;kCACN,8OAAC;kCAAK;;;;;;kCACN,8OAAC;kCAAK;;;;;;kCACN,8OAAC;kCAAK;;;;;;kCACN,8OAAC;kCAAK;;;;;;kCACN,8OAAC;kCAAK;;;;;;kCACN,8OAAC;kCAAK;;;;;;;;;;;;;;;;;;AAId"}}]
+}
