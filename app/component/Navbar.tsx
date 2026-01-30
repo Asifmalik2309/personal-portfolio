@@ -4,7 +4,7 @@ import Image from "next/image"
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Menu, X, Github, Linkedin, Mail } from "lucide-react"
+import { Menu, X, Github, Linkedin, Mail, FileText } from "lucide-react"
 import { Button } from "./ui/button"
 import { cn } from "../lib/utils"
 
@@ -33,6 +33,8 @@ const socialLinks = [
     icon: Mail,
   },
 ]
+
+const resumeLink = "/Asif_Resume.pdf"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -89,6 +91,18 @@ export default function Navbar() {
                 {item.name}
               </a>
             ))}
+
+            {/* Resume Button */}
+            <a
+              href={resumeLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-sm font-semibold text-white px-4 py-2 rounded-md
+                         bg-gradient-to-r from-primary to-purple-500 hover:opacity-90 transition"
+            >
+              <FileText className="h-4 w-4" />
+              Resume
+            </a>
           </div>
 
           {/* Desktop Social Icons */}
@@ -137,6 +151,18 @@ export default function Navbar() {
                   {item.name}
                 </a>
               ))}
+
+              {/* Mobile Resume */}
+              <a
+                href={resumeLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setIsOpen(false)}
+                className="block rounded px-3 py-2 text-sm font-semibold text-white text-center
+                           bg-gradient-to-r from-primary to-purple-500"
+              >
+                Resume
+              </a>
 
               <div className="flex justify-center gap-4 pt-4 border-t border-white/10">
                 {socialLinks.map((link) => (
